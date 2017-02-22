@@ -41,7 +41,7 @@ function chatBot() {
             return ["i love you too"];
 
         if (this.match('what is your name'))
-            return "My name Bot";
+            return "My name is Bot";
 
         if (this.input == 'noop')
             return;

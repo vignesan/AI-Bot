@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 13px;
+    background-color: #fafafa;
+}
+
+.container {
+    height: 100%;
+}
+
+.you {
+    float: right;
+    clear: both;
+    text-align: left;
+}
+
+.other {
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Courier New", Monospace;
+    text-shadow: #ccc 2px 2px 1px;
+    padding-bottom: 5px;
+}
+
+.chat {
+    border: 1px solid #ccc;
+    height: 545px;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    border-radius: 10px 0 0 0;
+    float: bottom;
+}
+
+.chat div {
+    margin: 10px 12px 15px;
+    line-height: 20px;
+}
+
+.chat .party {
+    font-weight: bold;
+}
+
+.chat .you {
+    padding: 20px;
+    border-radius: 5px;
+    background: lightsalmon;
+    color: white;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.chat .other {
+    padding: 20px;
+    border-radius: 5px;
+    background: lightseagreen;
+    color: white;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.chat .input {}
+
+.busy {
+    position: absolute;
+    padding: 3px 0;
+    color: #666;
+    display: none;
+    font-size: 11px;
+}
+
+.input {
+    margin-top: 20px;
+    float: right;
+}
+
+.input input {
+    vertical-align: bottom;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 480px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.input a {
+    vertical-align: top;
+    float: right;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    padding: 7px 35px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.input a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
